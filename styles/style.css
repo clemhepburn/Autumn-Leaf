@@ -87,3 +87,7 @@ button h2 {
     color: rgb(144, 131, 151);
     font-style: normal;
 }
+
+header h2 {
+    font-style: normal;
+}

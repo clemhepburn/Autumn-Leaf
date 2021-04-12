@@ -75,3 +75,14 @@ input:checked + span {
 .hidden {
     display: none;
 }
+
+button {
+    font-family: Helvetica;
+    font-size: 32px;
+    color: rgb(255, 245, 226);
+    background-color: rgb(11, 94, 73);
+}
+
+button:hover {
+    color:rgb(173, 204, 206)
+}
