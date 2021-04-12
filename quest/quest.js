@@ -22,6 +22,7 @@ const choiceForm = document.getElementById('choice-form');
 const choices = document.getElementById('choices');
 const result = document.getElementById('result');
 const resultDescription = document.getElementById('result-description');
+const button = document.querySelector('button');
 
 title.textContent = quest.title;
 image.src = quest.image;
@@ -49,6 +50,7 @@ choiceForm.addEventListener('submit', function(event) {
     choiceForm.classList.add('hidden');
     result.classList.remove('hidden');
     resultDescription.textContent = choice.result;
+    button.classList.add('hidden');
 
     loadUser();
 });

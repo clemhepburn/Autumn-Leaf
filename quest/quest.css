@@ -72,3 +72,6 @@ input:checked + span {
     width: 400px;
 }
 
+.hidden {
+    display: none;
+}
