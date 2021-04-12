@@ -68,3 +68,7 @@ input:checked + span {
  
 }
 
+#image {
+    width: 400px;
+}
+

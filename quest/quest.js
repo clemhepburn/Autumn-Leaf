@@ -24,7 +24,7 @@ const result = document.getElementById('result');
 const resultDescription = document.getElementById('result-description');
 
 title.textContent = quest.title;
-image.src = '../assets/' + quest.image;
+image.src = quest.image;
 description.textContent = quest.description;
 
 for (let index = 0; index < quest.choices.length; index++) {

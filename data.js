@@ -5,7 +5,7 @@ const car = {
         top: '40%',
         left: '30%'
     },
-    image: '',
+    image: '../assets/car.png',
     description: `You glide softly down from the canopy onto a parked car. 
     Somebody gets in and starts it up. What are you gonna do?`,
     
@@ -39,7 +39,7 @@ const window = {
         top: '40%',
         left: '80%'
     },
-    image: '',
+    image: '../assets/window.png',
     description: `You ride a gust into an open apartment window.`,
     
     choices: [{
@@ -73,7 +73,7 @@ const park = {
         top: '90%',
         left: '10%'
     },
-    image: '',
+    image: '../assets/park.png',
     description: `You can see a beautiful park across the street. Surely, there are other leaves to commune with.`,
     
     choices: [{
