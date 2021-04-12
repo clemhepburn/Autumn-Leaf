@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(11, 94, 73);
+    margin: 40px;
+
+}
+
+a {
+    font-family: 'Times New Roman';
+    font-weight: normal;
+    color:rgb(255, 245, 226);
+    font-style: normal;
+    font-size: 36px;
+    text-decoration: none;
+    text-shadow:  0px 0px 10px rgb(233, 207, 92);
+}
+
+
+
+.quest {
+    position: absolute;
+    
+    
+}
+
+
+
+quest.completed {
+    content: 'quest completed';
+}
+
+#quests {
+    position: relative;
+    background-image: url('../assets/sky.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 700px;
+    margin-left: 60px;
+}
+
+img {
+    width: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-title {
+    font-size: 24px;
+}
+
+h2 {
+        font-family: 'Times New Roman';
+        font-weight: normal;
+        color:rgb(255, 245, 226);
+        font-style: italic;
+        font-size: 36px;
+}

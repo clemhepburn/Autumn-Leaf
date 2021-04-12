@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="quest.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<header>
+
+    <h2 class="game-title">Autumn Leaf</h2>
+    <div class="profile">
+        <img id="picture">
+        <span id="name"></span>
+        hp:<span id="hp"></span>
+        seeds: <span id="seeds"></span>
+    </div>
+</header>
+
+<main> 
+    <h2 id="title"></h2>
+    <p>
+        <img id="image">
+
+    </p>
+    <p id="description"></p>
+    <form id="choice-form">
+        <p id="choices"></p>
+        <button>Final Decision</button>
+    </form>
+    <section id="result" class="hidden">
+        <p id="result-description"></p>
+        <a class="map-link" href="../map">Return to the Map</a>
+    </section>
+</main>
+<script type="module" src='./quest.js'></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+#picture {
+    width: 50px;
+    
+}
+
+.game-title {
+    margin-right: 40px;
+    margin-top: 0;
+}
+
+main {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 75px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    color:rgb(144, 131, 151);
+    font-size: 24px;
+}
+
+.leaf-pic {
+    width: 800px;
+}
+
+.reset-link {
+    text-decoration: none;
+    color:rgb(173, 204, 206);
+    font-size: 28px;
+    font-style: normal;
+}
+
+.reset-link:hover {
+    font-style: italic;
+}
