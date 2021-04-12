@@ -60,7 +60,7 @@ const window = {
         id: 'soil',
         description: 'You attempt to hide under the canopy of a potted plant.',
         result: `This plan was alright, and you go unnoticed, but it's nearly impossible now to catch a breeze and get out. You lose 70 hp and get no seeds.`,
-        hp: -70,
+        hp: -20,
         seeds: 0 
     }]
 
@@ -87,7 +87,7 @@ const park = {
         id: 'pond',
         description: 'Float in the duck pond.',
         result: `The pond was a bad option. Now that you're all soggy, you can't get out of the pond. Lose 60 hp, gain 0 seeds.`,
-        hp: -60,
+        hp: -30,
         seeds: 0 
     }, {
         id: 'pile',
