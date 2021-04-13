@@ -27,11 +27,17 @@ header {
 .choice input {
     display: none;
     
+    
 }
 
 input:checked + span {
     text-shadow: rgb(209, 255, 103) 1px 1px 5px;
 }
+
+input + span {
+    cursor: pointer;
+}
+
 
 #result {
     
